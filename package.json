@@ -19,6 +19,13 @@
   },
   "homepage": "https://github.com/lucasMontenegro/beginner-html-tutorial#readme",
   "scripts": {
-    "start": "npx serve"
+    "start": "npx serve",
+    "test": "jest tests"
+  },
+  "devDependencies": {
+    "expect-puppeteer": "^4.4.0",
+    "jest": "^26.0.1",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^3.1.0"
   }
 }
