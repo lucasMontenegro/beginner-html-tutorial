@@ -4,8 +4,6 @@ module.exports = {
     headless: process.env.HEADLESS !== 'false'
   },
   server: {
-    command: 'npm start',
-    host: '127.0.0.1',
-    port: 5000
+    command: 'npx serve -l tcp://127.0.0.1:3000'
   }
 }
